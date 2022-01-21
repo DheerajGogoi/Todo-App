@@ -1,0 +1,28 @@
+.todo-task{
+    width: 70%;
+    text-align: left;
+    padding: 10px;
+    background-color: white;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.137);
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-bottom: 1.2rem;
+
+    .task-box{
+        flex-direction: row;
+        display: flex;
+        .task-check, .task-title{
+            align-self: center;
+        }
+    }
+    
+    .task-actions{
+        align-self: center;
+    }
+
+    .task-actions{
+        display: flex;
+        flex-direction: row;
+    }
+}

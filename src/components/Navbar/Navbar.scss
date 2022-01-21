@@ -1,0 +1,17 @@
+.navbar-container{
+    padding: 1.1rem;
+    text-align: left;
+
+    .container{
+
+        .nav-box{
+            display: flex;
+            flex-direction: row;
+            justify-content: space-between;
+
+            .nav-title{
+                align-self: center;
+            }
+        }
+    }
+}

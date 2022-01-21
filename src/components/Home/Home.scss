@@ -1,0 +1,25 @@
+.home{
+    text-align: center;
+
+    .container{
+        // margin-top: 2rem;
+
+        .task-textfield{
+            margin-top: 2rem;
+            width: 70%;
+            height: 3.5rem;
+            padding: 1.2rem;
+            border-radius: 0;
+            border: none;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.137);
+            margin-bottom: 1.5rem;
+        }
+        .task-textfield:focus{
+            outline: none;
+        }
+
+        .progess-bar{
+            text-align: center;
+        }
+    }
+}
